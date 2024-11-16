@@ -36,12 +36,6 @@
         </div>
     </div>
     </nav>
-    <!--fin encabezado-->
-    <!--inicio acerca de-->
-
-
-
-    <!--fin acerca de-->
     <!--menú de navegación, cuerpo de la páginas-->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
@@ -74,49 +68,51 @@
                         </li>
                     </ul>
                 </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Buscar ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
+                    </a>
+                </div>
             </div>
+
         </div>
     </nav>
-    <!-- Fin menú -->
-    <!-- inicio acerca de -->
-    <section class="bg-success py-5">
-        <div class="container">
-            <div class="row aling-items-center">
-                <div class="col-md-8 text-white">                   
-                    <p>
-                        En Urban Fashion, creemos que la moda es mucho más que ropa: es una forma de expresar tu individualidad y empoderarte cada día. Somos una tienda online dedicada a ofrecer ropa y accesorios de alta calidad para damas y caballeros que buscan marcar tendencia sin sacrificar comodidad y autenticidad.
-                        <br><br>
-                        Nuestra pasión por la moda urbana nos lleva a seleccionar cuidadosamente cada prenda y accesorio, asegurando que sean tan únicos como nuestros clientes. Nos mantenemos al tanto de las últimas tendencias para traer estilos frescos, modernos y versátiles que se adaptan a cada momento y ocasión.
-                        <br><br>
-                        En Urban Fashion, valoramos a nuestros clientes y nos esforzamos por proporcionar una experiencia de compra que sea rápida, segura y satisfactoria. Con atención personalizada, envíos ágiles y un catálogo en constante renovación, queremos ser tu primera opción cuando pienses en moda urbana.
-                        <br><br>
-                        <strong> "Sé auténtico. Sé tú. Viste con Urban Fashion."</strong>
-                    </p>
-                    <h1>Mision</h1>
-                    <p>
-                        Brindar a nuestros clientes una experiencia de compra única, ofreciendo ropa y accesorios de alta calidad para damas y caballeros, con diseños que reflejan estilo, comodidad y las últimas tendencias. Nos comprometemos a proporcionar un servicio excepcional y una experiencia personalizada que haga que cada cliente se sienta especial.
-                    </p>
-                    <h1>Vision</h1>
-                    <p>
-                        Convertirnos en la tienda de ropa online líder en el mercado, reconocida por nuestra innovación en moda, compromiso con la satisfacción del cliente y la sostenibilidad en cada aspecto de nuestro negocio, inspirando a personas a expresar su estilo único y ser ellas mismas.
-                    </p>
-                    <h1>Objetivos</h1>
-                    <p>
-                        1. Incrementar las ventas anuales en un 20% a través de estrategias de marketing digital y promociones personalizadas.
-                        <br>2. Ampliar nuestro catálogo con colecciones exclusivas cada temporada, asegurando una oferta que se adapte a las tendencias y necesidades del cliente.
-                        <br>3. Mejorar la experiencia de compra online con una navegación intuitiva, atención al cliente en tiempo real y envíos rápidos.
-                        <br>4. Fomentar prácticas sostenibles, como el uso de materiales eco-amigables y la reducción de residuos, para contribuir al cuidado del medio ambiente.
-                        <br>5. Crear una comunidad de clientes leales a través de programas de fidelización y contenido que promueva la moda responsable y el estilo personal.
-                        
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="assets/img/LogoUF.jpg" alt="Urban_Family" class="rounded-circle img-fluid borde">
-                </div>
+    <!-- Fin menú de navegación, cuerpo de la páginas-->
+    <!--Modal-->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                    
+                </div>
+                <p><br>Escriba el producto a Buscar ...</p>
+            </form>
         </div>
-    </section> 
-    <!-- Fin acerca de-->
+    </div>
+    <!-- Fin menú de navegación, cuerpo de la páginas-->
 
     <!-- inicio de pie -->
     <footer class="bg-dark" id="templatemo_footer">
